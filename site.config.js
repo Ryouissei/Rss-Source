@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'RSS Source | RSS订阅源推荐',
-  domain: 'rss-source.com',
+  domain: '',
   author: 'Issei',
 
   // open graph metadata (optional)
