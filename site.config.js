@@ -12,7 +12,7 @@ module.exports = {
   author: 'Issei',
 
   // open graph metadata (optional)
-  description: 'RSS Source 是一个RSS订阅源推荐·收藏网站｜充实你的订阅源，提高信息质量。',
+  description: 'RSS Source是一个RSS订阅源推荐·收藏网站｜充实你的订阅源，提高信息质量。',
   socialImageTitle: 'RSS Source',
   socialImageSubtitle: 'RSS订阅源推荐｜充实你的订阅源，提高信息质量。',
 
