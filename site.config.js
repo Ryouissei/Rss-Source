@@ -48,6 +48,7 @@ module.exports = {
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
   // }
   pageUrlOverrides: {
+    '/': '1e1694d953ae4b529142b1128bfef084',
     '/technology': 'bf7604b81aeb47ccbafb0680e0b87d9d',
     '/coding': 'c8aab68522e64c33890994a91cd4c621',
     '/pm': '8a05ffbc78f941e7b0cd285ba3504647',
