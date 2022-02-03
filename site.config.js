@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'RSS Source | RSS订阅源推荐',
-  domain: '',
+  domain: 'rss-source.com',
   author: 'Issei',
 
   // open graph metadata (optional)
@@ -18,8 +18,8 @@ module.exports = {
 
   // social usernames (optional)
   twitter: 'ryou-issei',
-  github: '',
-  linkedin: '',
+  github: null,
+  linkedin: null,
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
