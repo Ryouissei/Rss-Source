@@ -7,8 +7,41 @@
  * places to add some flare.
  */
 
+ @media screen and (max-width:480px) {
+  .notion {
+    --notion-max-width: 400px;
+    --notion-header-height: 54px;
+  }
+  
+  .notion-page {
+    padding-bottom: calc(max(5vh, 32px)) !important;
+    line-height: 1.65;
+  }
+  
+  .index-page {
+    --notion-max-width: 400px;
+  }
+  }
+
+  @media screen and (min-width:480px) and (max-width:1023px){
+    .notion {
+      --notion-max-width: 720px;
+      --notion-header-height: 54px;
+    }
+    
+    .notion-page {
+      padding-bottom: calc(max(5vh, 32px)) !important;
+      line-height: 1.65;
+    }
+    
+    .index-page {
+      --notion-max-width: 720px;
+    }
+    }
+
+ @media screen and (min-width:1024px) {
 .notion {
-  --notion-max-width: 720px;
+  --notion-max-width: 1024px;
   --notion-header-height: 54px;
 }
 
@@ -20,7 +53,7 @@
 .index-page {
   --notion-max-width: 1280px;
 }
-
+}
 .notion-text {
   padding: 0.5em 2px;
 }
@@ -125,7 +158,7 @@
 }
 
 .notion-hr {
-  margin: 2em 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 920px) {
