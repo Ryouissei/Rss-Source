@@ -32,7 +32,6 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
 
   gtag('config', 'UA-110175678-3');
 </script>
-
     </Head>
   )
 }
